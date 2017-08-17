@@ -13,7 +13,3 @@
 #    echo "sleep 2; echo process $i" >> cmd_file ;
 #done
 
-for i in {1..50}; do
-    echo "sleep 2; hostname; echo process $i;" >> cmd_file_2
-done
-
